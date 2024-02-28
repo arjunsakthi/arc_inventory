@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389118231763",
+    "project_id": "arc-inventory-b113f",
+    "storage_bucket": "arc-inventory-b113f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389118231763:android:e2efa4700e075336788026",
+        "android_client_info": {
+          "package_name": "com.example.arc_inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwn_wDK40UJwPhL9OWYDyXp9sn800Fxxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

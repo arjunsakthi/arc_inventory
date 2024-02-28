@@ -1,0 +1,503 @@
+Restarted application in 880ms.
+I/flutter ( 3503): /data/user/0/com.example.arc_inventory/databases
+D/EGL_emulation( 3503): app_time_stats: avg=1332.18ms min=28.71ms max=3916.45ms count=3
+I/flutter ( 3503): []
+I/flutter ( 3503): hello321
+I/flutter ( 3503): []
+I/flutter ( 3503): hello123
+I/flutter ( 3503): []
+I/flutter ( 3503): testing times it appears
+D/EGL_emulation( 3503): app_time_stats: avg=254.91ms min=35.70ms max=639.58ms count=4
+D/EGL_emulation( 3503): app_time_stats: avg=36.32ms min=1.41ms max=533.85ms count=17
+D/EGL_emulation( 3503): app_time_stats: avg=26.93ms min=1.62ms max=246.46ms count=21
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=9409.47ms min=0.81ms max=150520.95ms count=16
+D/EGL_emulation( 3503): app_time_stats: avg=193.63ms min=1.97ms max=1148.73ms count=6
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/EGL_emulation( 3503): app_time_stats: avg=31.31ms min=3.13ms max=98.26ms count=25
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=218.61ms min=25.83ms max=503.22ms count=5
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=88.10ms min=1.74ms max=498.76ms count=11
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=167.83ms min=25.04ms max=499.08ms count=6
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=87.50ms min=1.86ms max=491.41ms count=10
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=364.04ms min=260.64ms max=500.12ms count=3
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=169.72ms min=25.96ms max=495.09ms count=6
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=90.23ms min=1.91ms max=499.75ms count=12
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=204.32ms min=11.48ms max=498.05ms count=6
+I/flutter ( 3503): NEW
+I/flutter ( 3503): {"compList":[{"compName":"sak","quant":12}],"studName":"sakthivel","studRollNo":"2023KUCP1234","key":"98250628-83db-4d4c-99da-40c1f955c7e5","typeSelect":"TypeSel.firstYear","timeStamp":"26-43-2024 11-43-33"}
+I/flutter ( 3503): /data/user/0/com.example.arc_inventory/databases
+I/flutter ( 3503): []
+I/flutter ( 3503): [Instance of 'Item']
+D/EGL_emulation( 3503): app_time_stats: avg=756.43ms min=0.98ms max=9791.27ms count=13
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+D/EGL_emulation( 3503): app_time_stats: avg=21.99ms min=1.91ms max=344.46ms count=24
+D/EGL_emulation( 3503): app_time_stats: avg=33.97ms min=1.64ms max=534.38ms count=18
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=182.37ms min=0.96ms max=2498.82ms count=14
+D/EGL_emulation( 3503): app_time_stats: avg=24.26ms min=1.42ms max=418.85ms count=21
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=33.02ms min=1.81ms max=202.79ms count=21
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/TextInputPlugin( 3503): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 3503): getSurroundingText on inactive InputConnection
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=340.19ms min=36.29ms max=499.11ms count=4
+I/flutter ( 3503): EDIT
+I/flutter ( 3503): hello puneet
+D/EGL_emulation( 3503): app_time_stats: avg=215.96ms min=0.82ms max=2784.03ms count=13
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel
+D/EGL_emulation( 3503): app_time_stats: avg=57.30ms min=2.15ms max=500.47ms count=15
+I/flutter ( 3503): 0
+I/flutter ( 3503): got some
+I/flutter ( 3503): [Instance of 'Item']
+I/flutter ( 3503): [Instance of 'Item']
+I/flutter ( 3503): /data/user/0/com.example.arc_inventory/databases
+I/flutter ( 3503): [{ValueKey: 98250628-83db-4d4c-99da-40c1f955c7e5, Data: {"compList":[{"compName":"sak","quant":12}],"studName":"sakthivel","studRollNo":"2023KUCP1234","key":"98250628-83db-4d4c-99da-40c1f955c7e5","typeSelect":"TypeSel.firstYear","timeStamp":"26-43-2024 11-43-33"}}]
+D/InputMethodManager( 3503): showSoftInput() view=io.flutter.embedding.android.FlutterView{978ac4e VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/flutter ( 3503): [{ValueKey: 98250628-83db-4d4c-99da-40c1f955c7e5, Data: {"compList":[{"compName":"sak","quant":12}],"studName":"sakthivel Kk","studRollNo":"2023KUCP1234","key":"98250628-83db-4d4c-99da-40c1f955c7e5","typeSelect":"TypeSel.firstYear","timeStamp":"26-43-2024 11-43-41"}}]
+I/flutter ( 3503): success update
+D/InsetsController( 3503): show(ime(), fromIme=true)
+D/EGL_emulation( 3503): app_time_stats: avg=68.33ms min=0.70ms max=865.64ms count=13
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel Kk
+D/EGL_emulation( 3503): app_time_stats: avg=33.62ms min=1.74ms max=524.29ms count=17
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel Kk
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+I/flutter ( 3503): sakthivel Kk
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+
+════════ Exception caught by widgets library ═══════════════════════════════════
+The following RangeError was thrown building ListWidget(dirty, dependencies: [UncontrolledProviderScope, _InheritedTheme, _LocalizationsScope-[GlobalKey#3347a]], state: _ConsumerState#8dfb5):
+RangeError (index): Invalid value: Valid value range is empty: 0
+
+The relevant error-causing widget was:
+    ListWidget ListWidget:file:///K:/flutter/arc_inventory/lib/screens/edit_screen.dart:171:22
+
+When the exception was thrown, this was the stack:
+#0      List.[] (dart:core-patch/growable_array.dart:264:36)
+#1      ListWidget.build (package:arc_inventory/widgets/list_widget.dart:30:16)
+#2      _ConsumerState.build (package:flutter_riverpod/src/consumer.dart:476:19)
+#3      StatefulElement.build (package:flutter/src/widgets/framework.dart:5583:27)
+#4      ConsumerStatefulElement.build (package:flutter_riverpod/src/consumer.dart:539:20)
+#5      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5471:15)
+#6      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#7      Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#8      StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#9      Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#10     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#11     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#12     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#13     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#14     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#15     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#16     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#17     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#18     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#19     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#20     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#21     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#22     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#23     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#24     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#25     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#26     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#27     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#28     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#29     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#30     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#31     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#32     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#33     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#34     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#35     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#36     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#37     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#38     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#39     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#40     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#41     StatelessElement.update (package:flutter/src/widgets/framework.dart:5547:5)
+#42     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#43     SliverMultiBoxAdaptorElement.updateChild (package:flutter/src/widgets/sliver.dart:858:37)
+#44     SliverMultiBoxAdaptorElement.performRebuild.processElement (package:flutter/src/widgets/sliver.dart:759:35)
+#45     Iterable.forEach (dart:core/iterable.dart:347:35)
+#46     SliverMultiBoxAdaptorElement.performRebuild (package:flutter/src/widgets/sliver.dart:806:24)
+#47     SliverMultiBoxAdaptorElement.update (package:flutter/src/widgets/sliver.dart:735:7)
+#48     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#49     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#50     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#51     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#52     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#53     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#54     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#55     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#56     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#57     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#58     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#59     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#60     Element.updateChildren (package:flutter/src/widgets/framework.dart:3964:32)
+#61     MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6896:17)
+#62     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#63     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#64     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#65     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#66     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#67     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#68     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#69     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#70     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#71     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#72     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#73     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#74     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#75     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#76     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#77     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#78     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#79     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#80     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#81     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#82     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#83     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#84     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#85     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#86     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#87     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#88     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#89     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#90     SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#91     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#92     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#93     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#94     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#95     StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#96     Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#97     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#98     Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#99     ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#100    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#101    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#102    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#103    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#104    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#105    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#106    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#107    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#108    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#109    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#110    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#111    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#112    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#113    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#114    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#115    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#116    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#117    StatelessElement.update (package:flutter/src/widgets/framework.dart:5547:5)
+#118    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#119    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#120    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#121    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#122    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#123    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#124    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#125    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#126    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#127    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#128    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#129    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#130    StatelessElement.update (package:flutter/src/widgets/framework.dart:5547:5)
+#131    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#132    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#133    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#134    StatelessElement.update (package:flutter/src/widgets/framework.dart:5547:5)
+#135    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#136    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#137    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#138    StatelessElement.update (package:flutter/src/widgets/framework.dart:5547:5)
+#139    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#140    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#141    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#142    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#143    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#144    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#145    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#146    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#147    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#148    Element.updateChildren (package:flutter/src/widgets/framework.dart:3964:32)
+#149    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6896:17)
+#150    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#151    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#152    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#153    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#154    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#155    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#156    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#157    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#158    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#159    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#160    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#161    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#162    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#163    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#164    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#165    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#166    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#167    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#168    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#169    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#170    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#171    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#172    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#173    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#174    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#175    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#176    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#177    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#178    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#179    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#180    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:6743:14)
+#181    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#182    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#183    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#184    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#185    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#186    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#187    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#188    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#189    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#190    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#191    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#192    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#193    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#194    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#195    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#196    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#197    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#198    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#199    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#200    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#201    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#202    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#203    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#204    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#205    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#206    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#207    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#208    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#209    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#210    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#211    ProxyElement.update (package:flutter/src/widgets/framework.dart:5800:5)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#216    StatefulElement.update (package:flutter/src/widgets/framework.dart:5657:5)
+#217    Element.updateChild (package:flutter/src/widgets/framework.dart:3815:15)
+#218    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5496:16)
+#219    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5634:11)
+#220    Element.rebuild (package:flutter/src/widgets/framework.dart:5187:7)
+#221    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2895:19)
+#222    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:984:21)
+#223    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:457:5)
+#224    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1325:15)
+#225    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1255:9)
+#226    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1113:5)
+#227    _invoke (dart:ui/hooks.dart:312:13)
+#228    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:383:5)
+#229    _drawFrame (dart:ui/hooks.dart:283:31)
+
+════════════════════════════════════════════════════════════════════════════════
+I/flutter ( 3503): testing times it appears
+I/flutter ( 3503): 0
+I/flutter ( 3503): object123
+
+════════ Exception caught by widgets library ═══════════════════════════════════
+RangeError (index): Invalid value: Valid value range is empty: 0
+The relevant error-causing widget was:
+════════════════════════════════════════════════════════════════════════════════
