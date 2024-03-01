@@ -10,8 +10,8 @@ class Authenticate {
         .collection('users')
         .doc(userid!.uid)
         .get();
-    print(userData.data());
-    return userData.data()! ;
+    // print(userData.data());
+    return userData.data()!;
   }
 
   Future<String> login(String email, String password) async {

@@ -136,8 +136,12 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
         //   print(_controllers[i][1].text);
 
         Item item = _update();
-        final _bool = await ref.read(studentDataProvider.notifier).add(item);
-        if (_bool) {
+        final _res = await ref.read(studentDataProvider.notifier).add(item);
+        print(_res);
+        if (_res != "Some Error") {
+          ScaffoldMessenger.of(context).clearSnackBars();
+          ScaffoldMessenger.of(context)
+              .showSnackBar(SnackBar(content: Text(_res)));
           Navigator.of(context).pop();
         } else {
           ScaffoldMessenger.of(context).clearSnackBars();
@@ -170,9 +174,14 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
 
         if (response) {
           Item item = _update();
-          final ok =
+          String res =
               await ref.read(studentDataProvider.notifier).replace(data!, item);
           // ref.refresh(studentDataProvider); -- very very bad argument -- never to be used
+          if (res != "Some Error") {
+            ScaffoldMessenger.of(context).clearSnackBars();
+            ScaffoldMessenger.of(context)
+                .showSnackBar(SnackBar(content: Text(res)));
+          }
         }
         Navigator.of(context).pop();
       } else {

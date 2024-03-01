@@ -23,8 +23,8 @@ class ListWidget extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    print(idx);
-    print('object123');
+    // print(idx);
+    // print('object123');
     List<Item> data1 =
         ref.watch(studentDataProvider.notifier).itemOfCategory(type);
     print(data1[idx].studName);

@@ -27,7 +27,7 @@ class Item {
 
   Map<String, dynamic> toMap() {
     return {
-      "compList": compList.map((component) => component.toMap()).toList(),
+      "compList": compList.map((component) => component.toMap()).toList(), // list of (component name and quantity) map
       "studName": studName,
       "studRollNo": studRollNo,
       "key": key,

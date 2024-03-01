@@ -90,6 +90,7 @@ class _EditScreenState extends ConsumerState<EditScreen>
                       .map(
                         (item) => Row(children: [
                           Text(item.compName),
+                          SizedBox(width: 3),
                           Text(
                             item.quant.toString(),
                           )
@@ -143,11 +144,17 @@ class _EditScreenState extends ConsumerState<EditScreen>
       );
       // given delay such that after it removes the item
       // the list widget will get the update
-      WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-        ref
+      String res = "";
+      WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+        res = await ref
             .read(studentDataProvider.notifier)
             .removeItemofIndex(widget.type, idx);
       });
+      if (res == "Some Error") {
+        ScaffoldMessenger.of(context).clearSnackBars();
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text(res)));
+      }
 
       // error was there before building the widget (which is going to remove) the item is removed
       // WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
@@ -159,7 +166,7 @@ class _EditScreenState extends ConsumerState<EditScreen>
   @override
   Widget build(BuildContext context) {
     // ref.watch(studentDataProvider);
-    print("testing times it appears");
+    // print("testing times it appears");
     List<Item> data =
         ref.read(studentDataProvider.notifier).itemOfCategory(widget.type);
     return Scaffold(
