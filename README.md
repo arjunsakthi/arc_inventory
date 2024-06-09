@@ -22,11 +22,12 @@ The Arc Robotics Inventory App is designed to efficiently manage and track the i
 │   
 ├── lib
 │   ├── models
-│   ├── providers
-│   ├── repositories
 │   ├── screens
-│   ├── services
 │   ├── utils
+│   ├── docs
+│   ├── resources
+|   |   ├─ database
+|   |   ├─ providers
 │   └── widgets
 └── test
 ```
@@ -45,9 +46,6 @@ Handles data operations and interactions with Firebase Firestore.
 
 ### Screens
 Contains the UI screens of the app.
-
-### Services
-Includes service classes for authentication and database operations.
 
 ### Utils
 Utility classes and functions for general purposes.
