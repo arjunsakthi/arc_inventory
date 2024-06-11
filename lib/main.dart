@@ -1,8 +1,8 @@
-import 'package:arc_inventory/resource/data_provider.dart';
-import 'package:arc_inventory/screens/auth_screen.dart';
-import 'package:arc_inventory/screens/edit_screen.dart';
-import 'package:arc_inventory/screens/loading_screen.dart';
-import 'package:arc_inventory/screens/main_screen.dart';
+import 'package:arc_inventory/resource/providers/data_provider.dart';
+import 'package:arc_inventory/screens/main_screens/auth_screen.dart';
+import 'package:arc_inventory/screens/item_storageAndEditing/edit_screen.dart';
+import 'package:arc_inventory/screens/main_screens/loading_screen.dart';
+import 'package:arc_inventory/screens/main_screens/main_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +11,15 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: 'AIzaSyCwn_wDK40UJwPhL9OWYDyXp9sn800Fxxw',
+      appId: '1:389118231763:android:e2efa4700e075336788026',
+      messagingSenderId: '389118231763',
+      projectId: 'arc-inventory-b113f',
+      storageBucket: 'arc-inventory-b113f.appspot.com',
+    ),
+  );
   runApp(ProviderScope(child: const MyApp()));
 }
 
@@ -31,12 +39,21 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         scaffoldBackgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        snackBarTheme: SnackBarThemeData(
+          actionBackgroundColor: Color.fromARGB(153, 69, 12, 144),
+          backgroundColor: Color.fromARGB(153, 69, 12, 144),
+          dismissDirection: DismissDirection.down,
+          contentTextStyle: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         appBarTheme: AppBarTheme(
-            backgroundColor: Color.fromARGB(153, 69, 12, 144),
-            titleTextStyle: Theme.of(context)
-                .textTheme
-                .bodyLarge!
-                .copyWith(fontSize: 24, color: Colors.white)),
+          backgroundColor: Color.fromARGB(153, 69, 12, 144),
+          titleTextStyle: Theme.of(context)
+              .textTheme
+              .bodyLarge!
+              .copyWith(fontSize: 24, color: Colors.white),
+        ),
         inputDecorationTheme: InputDecorationTheme().copyWith(
           focusedBorder: OutlineInputBorder(
             borderSide: BorderSide(

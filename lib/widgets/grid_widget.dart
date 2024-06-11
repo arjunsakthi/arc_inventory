@@ -1,6 +1,6 @@
 import 'package:arc_inventory/modals/item.dart';
-import 'package:arc_inventory/resource/data_provider.dart';
-import 'package:arc_inventory/screens/edit_screen.dart';
+import 'package:arc_inventory/resource/providers/data_provider.dart';
+import 'package:arc_inventory/screens/item_storageAndEditing/edit_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -49,7 +49,7 @@ class GridWidget extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    ref.watch(studentDataProvider);
+    print('refreshed');
     final data = ref.watch(studentDataProvider.notifier).itemOfCategory(type);
     return Container(
       padding: EdgeInsets.only(top: 10),

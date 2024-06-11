@@ -1,5 +1,5 @@
 import 'package:arc_inventory/modals/item.dart';
-import 'package:arc_inventory/resource/data_provider.dart';
+import 'package:arc_inventory/resource/providers/data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -27,12 +27,12 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
     [TextEditingController(), TextEditingController()],
   ];
   ScrollController _scroll = ScrollController();
-  Future<bool> _conformation() async {
+  Future<bool> _conformation(String body) async {
     bool _conformation = await showDialog(
       context: context,
       builder: (context) => AlertDialog(
         title: Text(
-          "Conform Delete",
+          body,
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         actions: [
@@ -45,7 +45,7 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
               onPressed: () {
                 Navigator.of(context).pop(false);
               },
-              child: Text("Quit")),
+              child: Text("Revert")),
         ],
       ),
     );
@@ -138,6 +138,7 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
         Item item = _update();
         final _res = await ref.read(studentDataProvider.notifier).add(item);
         print(_res);
+        print('what to be done');
         if (_res != "Some Error") {
           ScaffoldMessenger.of(context).clearSnackBars();
           ScaffoldMessenger.of(context)
@@ -147,47 +148,56 @@ class _EditWidgetState extends ConsumerState<EditWidget> {
           ScaffoldMessenger.of(context).clearSnackBars();
           ScaffoldMessenger.of(context)
               .showSnackBar(SnackBar(content: Text("Entry already Exisits")));
+          Navigator.of(context).pop();
         }
       }
     } else {
       print("EDIT");
-      bool status = false;
-      if (_controllers.length != data!.compList.length) {
-        status = true;
-      } else {
-        for (int i = 0; i < _controllers.length; i++) {
-          if (_controllers[i][0].text != data!.compList[i].compName ||
-              _controllers[i][1].text != data!.compList[i].quant.toString()) {
-            status = true;
+      bool sak = _verifyKey.currentState!.validate();
+      if (sak) {
+        bool status = false;
+        if (_controllers.length != data!.compList.length) {
+          status = true;
+        } else {
+          for (int i = 0; i < _controllers.length; i++) {
+            if (_controllers[i][0].text != data!.compList[i].compName ||
+                _controllers[i][1].text != data!.compList[i].quant.toString()) {
+              status = true;
+            }
           }
         }
-      }
-      _verifyKey.currentState!.save();
-
-      if (status ||
-          _studName != data!.studName ||
-          _batch != data!.typeSelect ||
-          data!.studRollNo.substring(4, 8) != _dep) {
-        print("hello puneet");
         _verifyKey.currentState!.save();
-        bool response = await _conformation();
+        print(_batch);
 
-        if (response) {
-          Item item = _update();
-          String res =
-              await ref.read(studentDataProvider.notifier).replace(data!, item);
-          // ref.refresh(studentDataProvider); -- very very bad argument -- never to be used
-          if (res != "Some Error") {
+        if (status ||
+            _studName != data!.studName ||
+            _batch != data!.typeSelect ||
+            data!.studRollNo.substring(4, 8) != _dep) {
+          print("hello puneet");
+          // _verifyKey.currentState!.save();
+          bool response = await _conformation('Conform Change');
+
+          if (response) {
+            Item item = _update();
+            String res = await ref
+                .read(studentDataProvider.notifier)
+                .replace(data!, item);
+            // ref.refresh(studentDataProvider); -- very very bad argument -- never to be used
+            if (res != "Some Error") {
+              ScaffoldMessenger.of(context).clearSnackBars();
+              ScaffoldMessenger.of(context)
+                  .showSnackBar(SnackBar(content: Text(res)));
+            }
             ScaffoldMessenger.of(context).clearSnackBars();
             ScaffoldMessenger.of(context)
-                .showSnackBar(SnackBar(content: Text(res)));
+                .showSnackBar(SnackBar(content: Text("Updated")));
           }
+        } else {
+          ScaffoldMessenger.of(context).clearSnackBars();
+          ScaffoldMessenger.of(context)
+              .showSnackBar(SnackBar(content: Text("No changes Made")));
         }
         Navigator.of(context).pop();
-      } else {
-        ScaffoldMessenger.of(context).clearSnackBars();
-        ScaffoldMessenger.of(context)
-            .showSnackBar(SnackBar(content: Text("No changes Made")));
       }
     }
   }

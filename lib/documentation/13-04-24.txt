@@ -1,0 +1,14 @@
+now working procedure
+
+if some change in database then i checks and update in local.
+
+
+# #
+When the device is offline, Firebase operations such as writes (including delete operations) are stored locally on the device. When the device comes back online, Firebase automatically syncs the local changes with the Firebase servers.
+
+This means that if you perform a delete operation while the device is offline, Firebase will queue that operation locally. When the device goes back online, Firebase will automatically execute the queued delete operation and sync the changes with the server.
+
+same goes for update and set operations.
+# #
+// if deleted no problem  without internet
+// if added if gets stucked but we can manually go back adn do other works. (solved with timeout)

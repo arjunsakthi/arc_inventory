@@ -17,7 +17,10 @@ class Item {
     String? timeStamp,
   })  : key = key ?? uuid.v4(),
         timeStamp = timeStamp ??
-            DateFormat('dd-mm-yyyy hh-mm-ss').format(DateTime.now());
+            DateFormat('dd-MM-yyyy hh-mm-ss').format(DateTime.now()) {
+    print('date');
+    print(timeStamp);
+  }
   final String key;
   TypeSel typeSelect;
   final String timeStamp;
@@ -27,7 +30,9 @@ class Item {
 
   Map<String, dynamic> toMap() {
     return {
-      "compList": compList.map((component) => component.toMap()).toList(), // list of (component name and quantity) map
+      "compList": compList
+          .map((component) => component.toMap())
+          .toList(), // list of (component name and quantity) map
       "studName": studName,
       "studRollNo": studRollNo,
       "key": key,

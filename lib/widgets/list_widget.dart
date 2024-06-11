@@ -1,6 +1,6 @@
 import 'dart:ffi';
 
-import 'package:arc_inventory/resource/data_provider.dart';
+import 'package:arc_inventory/resource/providers/data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
